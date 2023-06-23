@@ -13,11 +13,11 @@ header{
 }
 
 .logo{
-    width: 35%;
+    width: 50%;
 }
 
 nav{
-    width: 75%;
+    width: 50%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -96,3 +96,15 @@ nav ul a{
     cursor: pointer;
 }
 
+#lining{
+    width: 50%;
+    height: 5px;
+    background-color: #be273a;
+    margin-inline: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+main{
+    margin-bottom: 20px;
+}
