@@ -55,6 +55,7 @@ nav ul a{
     border-radius: 20px;
     margin-inline: auto;
     display: flex;
+    gap: 30px;
     align-items: center;
     justify-content: center;
 }
@@ -73,10 +74,12 @@ nav ul a{
     justify-content: center;
     border-radius: 10px;
     box-shadow: #be273a 1px 3px 5px;
+    
 }
 
 .items img{
     height: 200px;
+    width: 90%;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 10px;
@@ -94,6 +97,9 @@ nav ul a{
 .items:hover{
     transform: scale(1.1);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 #lining{
